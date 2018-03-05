@@ -11,14 +11,17 @@ import javax.swing.JOptionPane;
  */
 public class Metodos {
 
+    public Metodos() {
+    }
+
     public void pedirDatos() {
 
         for (int i = 0; i < 5; i++) {
 
-            linea = JOptionPane.showInputDialog("Introduzca la palabra " + (i + 1));
+            Boletin_21.linea = JOptionPane.showInputDialog("Introduzca la palabra " + (i + 1));
 
-            lista.add(linea);
-
+            Boletin_21.lista.add(i, linea);
+            System.out.println(lista.get(i));
         }
     }
 

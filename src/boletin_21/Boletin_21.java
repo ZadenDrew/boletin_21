@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class Boletin_21 {
 
     static String linea;
-    static ArrayList<String> lista;
+    static ArrayList<String> lista = new ArrayList<>();
 
     /**
      * @param args the command line arguments
